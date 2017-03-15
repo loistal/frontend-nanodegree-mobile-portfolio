@@ -1,0 +1,27 @@
+{
+  "name": "optimization",
+  "version": "1.0.0",
+  "description": "Website optimization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loistal/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loistal/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/loistal/frontend-nanodegree-mobile-portfolio#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
