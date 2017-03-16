@@ -12,10 +12,13 @@ module.exports = function(grunt) {
                 tasks:  ['concat'],
             }
         },
-        imagemin: { // Task
-            all: { // Another target
-
+        imagemin: { 
+            all: { 
+                options: { 
+                    optimizationLevel: 7
+                },
                 files: [{
+                	expand: true, 
                     src: ['**/*.{png,jpg,gif}'], // Actual patterns to match
                     dest: 'dist/' // Destination path prefix
                 }]
