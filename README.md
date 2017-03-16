@@ -7,7 +7,6 @@ was to get the website to a PageSpeed Insights score of at least 90 on both Mobi
 
 ## How?
 ### PageSpeed
-```index.html```
 * use optimized images (from PageSpeed Insights)
 * load Google Analytics script at the bottom
 * replace Google fonts import with async script
