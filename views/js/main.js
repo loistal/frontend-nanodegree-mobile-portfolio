@@ -556,13 +556,11 @@ function updatePositions() {
 // runs updatePositions on scroll
 window.addEventListener('scroll', updatePositions);
 
-/**
- * Generates the sliding pizzas when the page loads.
- */
+// Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  //Optimization: define elem out side of for loop
+  //Opt define elem out side of for loop
   var elem;
   //Optimization: create an array variable that has a reference to all of the pizzas with id "movingPizzas1"
   var movingPizzas1 = document.getElementById("movingPizzas1");
